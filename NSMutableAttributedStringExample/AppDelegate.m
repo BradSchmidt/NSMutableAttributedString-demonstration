@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TextViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    TextViewController *textVC = [[TextViewController alloc] init];
+    [[self window] setRootViewController:textVC];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

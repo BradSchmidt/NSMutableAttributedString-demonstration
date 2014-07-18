@@ -19,6 +19,7 @@
 		A22E1C1B1978E0AE00FB005F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22E1C031978E0AE00FB005F /* UIKit.framework */; };
 		A22E1C231978E0AE00FB005F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A22E1C211978E0AE00FB005F /* InfoPlist.strings */; };
 		A22E1C251978E0AE00FB005F /* NSMutableAttributedStringExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A22E1C241978E0AE00FB005F /* NSMutableAttributedStringExampleTests.m */; };
+		A22E1C301978E10500FB005F /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22E1C2F1978E10500FB005F /* TextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		A22E1C201978E0AE00FB005F /* NSMutableAttributedStringExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSMutableAttributedStringExampleTests-Info.plist"; sourceTree = "<group>"; };
 		A22E1C221978E0AE00FB005F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A22E1C241978E0AE00FB005F /* NSMutableAttributedStringExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMutableAttributedStringExampleTests.m; sourceTree = "<group>"; };
+		A22E1C2E1978E10500FB005F /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		A22E1C2F1978E10500FB005F /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				A22E1C0E1978E0AE00FB005F /* AppDelegate.h */,
 				A22E1C0F1978E0AE00FB005F /* AppDelegate.m */,
+				A22E1C2E1978E10500FB005F /* TextViewController.h */,
+				A22E1C2F1978E10500FB005F /* TextViewController.m */,
 				A22E1C111978E0AE00FB005F /* Images.xcassets */,
 				A22E1C061978E0AE00FB005F /* Supporting Files */,
 			);
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22E1C301978E10500FB005F /* TextViewController.m in Sources */,
 				A22E1C101978E0AE00FB005F /* AppDelegate.m in Sources */,
 				A22E1C0C1978E0AE00FB005F /* main.m in Sources */,
 			);
